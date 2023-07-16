@@ -258,8 +258,9 @@ p {
 
 }
 
-.pro-container{
+#Product1 .pro-container{
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
 }
