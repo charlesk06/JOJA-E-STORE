@@ -103,6 +103,8 @@ p {
     display: none;
     align-items: center;
 }
+
+
 /*Home Page*/
 #hero{
     background-image: url(images/Blouses/Blouse-Pink.jpg);
@@ -586,4 +588,5 @@ footer .copyright{
         color: #222;
         font-size: 24px;
     }
+
 }
