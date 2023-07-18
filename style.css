@@ -104,6 +104,9 @@ p {
     align-items: center;
 }
 
+#close{
+    display: none;
+}
 
 /*Home Page*/
 #hero{
@@ -582,11 +585,15 @@ footer .copyright{
         padding-left: 20px;
     }
     #close{
+        display: initial;
         position: absolute;
         top: 30px;
         left: 30px;
         color: #222;
         font-size: 24px;
+    }
+    #lg-bag{
+        display: none;
     }
 
 }
