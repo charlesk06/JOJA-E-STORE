@@ -585,6 +585,12 @@ footer .copyright{
 
 /*Single Product Page*/
 
+#prodetails{
+    display: flex;
+    margin-top: 20px;
+
+}
+
 #prodetails .single-pro-image{
     width: 40%;
     margin-right: 50px;
@@ -598,10 +604,42 @@ footer .copyright{
     cursor: pointer;
 }
 
-#prodetails{
-    display: flex;
-    margin: 20px;
+#prodetails .single-prod-details{
+    width: 50%;
+    padding-top: 30px;
 }
+
+#prodetails .single-prod-details h4{
+    padding: 40px 0 20px 0;
+}
+
+#prodetails .single-prod-details h2{
+    font-size: 26px;
+}
+
+#prodetails .single-prod-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+#prodetails .single-prod-details input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+#prodetails .single-prod-details input:focus{
+    outline: none;
+}
+#prodetails .single-prod-details span{
+    line-height: 25px;
+}
+#prodetails .single-prod-details button{
+    background-color: #088178;
+    color: #fff;
+}
+
 /*Start Media Query*/
 
 

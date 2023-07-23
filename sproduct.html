@@ -44,23 +44,23 @@
         <p>Save more with coupons & up to 70 off!</p>
 
     </section>
-<sectio id="prodetails" class="section-p1">
+<section id="prodetails" class="section-p1">
     <div class="single-pro-image">
         <img src="images/products/f1.jpg" width="100%" id="MainImg" alt="">
 
         <div class="small-img-grp">
-           <di class="small-img-color">
+           <div class="small-img-color">
             <img src="images/products/f1.jpg" width="100%" class="small-img" alt="">
-           </di>
-           <di class="small-img-color">
+           </div>
+           <div class="small-img-color">
             <img src="images/products/f2.jpg" width="100%" class="small-img" alt="">
-           </di>
-           <di class="small-img-color">
+           </div>
+           <div class="small-img-color">
             <img src="images/products/f3.jpg" width="100%" class="small-img" alt="">
-           </di>
-           <di class="small-img-color">
+           </div>
+           <div class="small-img-color">
             <img src="images/products/f4.jpg" width="100%" class="small-img" alt="">
-           </di>
+           </div>
         </div>
 
     </div>
@@ -75,9 +75,70 @@
             <option>Large</option>
         </select>
         <input type="number" value="1">
-        <button>Add to Cart</button>
+        <button class="normal">Add to Cart</button>
+        <h4>Product Details</h4>
+        <span>
+        Body Fitted T-shirt Made in Cotton Polyester Tight Arm Black 100% Cotton Mens Sports Casual T Shirt Plain Dyed T Shitrts Knitted</span>
     </div>
-</sectio>
+</section>
+
+<section id="Product1" class="section-p1">
+    <h2>featured Products</h2>
+    <p>Summer Collection New Modern Design</p>
+    <div class="pro-container">
+        <div class="pro">
+            <img src="images/products/n1.jpg" alt="p1">
+            <div class="des">
+                <span>Brazilia Brand</span>
+                <h5>White Blouse</h5>
+                <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+
+                </div>
+                <h4>Tsh.14,000</h4>
+            </div>
+            <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+            <img src="images/products/n2.jpg" alt="p1">
+            <div class="des">
+                <span>Spain Brand</span>
+                <h5>Top Blouse</h5>
+                <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+
+                </div>
+                <h4>Tsh.25,000</h4>
+            </div>
+            <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+            <img src="images/products/n3.jpg" alt="p1">
+            <div class="des">
+                <span>Brazilia Brand</span>
+                <h5>White Blouse</h5>
+                <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+
+                </div>
+                <h4>Tsh.14,000</h4>
+            </div>
+            <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+        </div>
+    </div>
+</section>
 
     <section id="newsletter" class="section-p1 section-m1">
         <div class="newstext">
@@ -139,6 +200,25 @@
             <p>&copy;2023 JOJA STORE E-COMMERCE</p>
         </div>
     </footer>
+    <script>
+        
+    var MainImg = document.getElementById("MainImg");
+    var smallimg= document.getElementByClassName("small-img");
+
+    smallimg[0].onclick = function(){
+        MainImg.src = smallimg[0].src;
+    }
+    smallimg[1].onclick = function(){
+        MainImg.src = smallimg[1].src;
+    }
+    smallimg[2].onclick = function(){
+        MainImg.src = smallimg[2].src;
+    }
+    smallimg[3].onclick = function(){
+        MainImg.src = smallimg[3].src;
+    }
+    </script>
+   
     <script src="script.js"></script>
 </body>
 
